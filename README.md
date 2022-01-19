@@ -10,4 +10,4 @@ ele fará o download das imagens utilizadas e colocará o ambiente no ar
 > docker-compose up
 
 Executar o seguinte comando para executar o script dentro do container:
-> docker exec ess_spark_1 spark-submit /app/main.py
+> docker exec spark-docker-execution_spark_1 spark-submit /app/main.py
